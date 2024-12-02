@@ -1,0 +1,6 @@
+(library
+ (modes melange)
+ (name router)
+ (public_name reason-expo.router)
+ (preprocess
+  (pps melange.ppx)))

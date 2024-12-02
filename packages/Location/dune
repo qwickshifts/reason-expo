@@ -1,0 +1,6 @@
+(library
+ (modes melange)
+ (name location)
+ (public_name reason-expo.location)
+ (preprocess
+  (pps melange.ppx)))

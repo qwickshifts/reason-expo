@@ -1,0 +1,9 @@
+(library
+ (libraries reason-react-native)
+ (modes melange)
+ (name notifications)
+ (public_name reason-expo.notifications)
+ (preprocess
+  (pps melange.ppx)))
+
+(include_subdirs unqualified)
