@@ -81,8 +81,8 @@ external useForegroundPermissions:
 
 [@mel.module "expo-location"]
 external getForegroundPermissionsAsync:
-  unit => Js.Promise.t(permissionResponse) =
-  "getForegroundPermissions";
+  unit => Js.Promise.t(locationPermissionResponse) =
+  "getForegroundPermissionsAsync";
 
 [@mel.module "expo-location"]
 external getCurrentPositionAsync: options => Js.Promise.t(t) =
