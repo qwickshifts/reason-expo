@@ -1,0 +1,9 @@
+(library
+ (libraries reason-react-native)
+ (modes melange)
+ (name reactNavigation)
+ (public_name reason-expo.react-navigation)
+ (preprocess
+  (pps melange.ppx)))
+
+(include_subdirs unqualified)
